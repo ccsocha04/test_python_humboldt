@@ -20,7 +20,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/4.0/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = os.environ.get('SECRET_KEY', 'llave_falsa_uno_tres')
+SECRET_KEY = os.environ.get('SECRET_KEY', 'iuygetp9ifuq34ywfguhbeaqwr978gfytq34ruiotgfp97')
 
 # SECURITY WARNING: don't run with de
 # bug turned on in production!
@@ -130,7 +130,7 @@ REST_FRAMEWORK = {
 }
 SPECTACULAR_SETTINGS = {
     'TITLE': 'Bored and Joke API',
-    'DESCRIPTION': 'API for Bored and Joke',
+    'DESCRIPTION': 'API de Bored y Joke APIs',
     'VERSION': '0.0.1',
-    # OTHER SETTINGS
+    'CONTACT': {'name': 'Cristian Socha', 'email': 'ccsocha01@gmail.com'}
 }
